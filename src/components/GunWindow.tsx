@@ -87,7 +87,7 @@ export default function GunWindow() {
   return (
     <>
       {loaded !== 100 && <ProgressBar animated now={loaded} label={`${loaded.toLocaleString()}%`} style={{ width: "100%" }} />}
-      <canvas style={{ width: "100%", height: "100%", display: "block", background: "url('/background.jpg')" }} ref={canvasRef} />
+      <canvas style={{ width: "100%", height: "100%", display: "block", background: "url('/background.jpg')", backgroundPosition: "center" }} ref={canvasRef} />
     </>
   );
 }
