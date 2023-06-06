@@ -63,7 +63,7 @@ export default function GunWindow() {
 
     renderer.setAnimationLoop(() => {
       // console.log();
-      container.rotation.y -= 0.005;
+      // container.rotation.y -= 0.005;
 
       renderer.render(scene, camera);
     });
